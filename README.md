@@ -6,7 +6,7 @@ The app is lightweight, fast, and adapts seamlessly across devices.
 ---
 
 ## 🔗 Live Demo
-👉 [Check out the live app here](https://your-demo-link.com)
+👉 [Check out the live app here](https://leet-metrix-app.vercel.app/)
 
 ---
 
