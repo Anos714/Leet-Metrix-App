@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.main-section {
+  height: fit-content;
+  width: 40%;
+  background-color: #555;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-input-div {
+  display: flex;
+}
+
+.heading {
+  /* text-decoration: underline; */
+  color: rgba(255, 255, 221, 0.689);
+}
+
+#input {
+  height: 45px;
+  width: 200px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  height: 45px;
+  border: none;
+  background-color: rgb(52, 116, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+}
+
+.graph-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.easy-graph {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+}
+
+.medium-graph {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+}
+
+.hard-graph {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+}
+
+/* .other-info-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 1rem;
+  place-content: center;
+}
+
+.submission {
+  height: 60px;
+  width: 200px;
+  background-color: aquamarine;
+  padding: 0.2rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+} */
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+
+@media only screen and (max-width: 468px) {
+  .btn {
+    width: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #input {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #input {
+    width: 100px;
+  }
+
+  .btn {
+    width: 40px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .main-section {
+    width: 80%;
+  }
+}
