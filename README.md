@@ -5,6 +5,11 @@ The app is lightweight, fast, and adapts seamlessly across devices.
 
 ---
 
+## 🔗 Live Demo
+👉 [Check out the live app here](https://your-demo-link.com)
+
+---
+
 ## 🚀 Features
 - 📈 Track and display coding progress in an elegant way  
 - 🎨 Clean and modern UI built with pure HTML, CSS, and JS  
